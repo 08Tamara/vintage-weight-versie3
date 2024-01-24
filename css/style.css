@@ -1,0 +1,111 @@
+body {
+    background-image: url("../images/vintage-weight-background-4.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: sans-serif;
+    background-color: #f1dabf;
+}
+
+main {
+    text-align: center;
+    margin: 1em;
+    min-height: 130vh;
+}
+
+img {
+    max-width: 100%;
+}
+
+.logo-foto {
+    max-width: 20%;
+}
+
+.red-shirt {
+    max-width: 25%;
+    float: left;
+}
+
+.weegschaal {
+    max-width: 30%;
+    float: right;
+}
+
+.euro-logo {
+    max-width: 20%;
+}
+
+.recycle-logo {
+    max-width: 27%;
+    margin-right: 2em;
+}
+
+nav {
+    display: flex;
+    justify-content: center;
+    background-color: #90323D;
+    position: fixed;
+    bottom: 0;
+    width: 100vw;
+    left: 0;
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+    gap: 1em;
+    padding: 0.2em;
+}
+
+li {
+    display: flex;
+}
+
+a {
+    background-color: #ffff;
+    padding: 0.5em;
+    border-radius: 1em;
+    text-decoration: none;
+}
+
+.review-1 {
+    background: white;
+    padding: 1em;
+    border-radius: 1em;
+}
+
+.review-foto {
+    max-width: 25%;
+    justify-content: center;
+}
+
+.review-2 {
+    background: white;
+    padding: 1em;
+    border-radius: 1em;
+}
+
+.review-3 {
+    background: white;
+    padding: 1em;
+    border-radius: 1em;
+}
+
+div {
+    margin-bottom: 1em;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    background-color: #90323D;
+    position: fixed;
+    top: 0;
+    width: 100vw;
+    left: 0;
+}
+
+h1 {
+    padding-top: 25%;
+}
